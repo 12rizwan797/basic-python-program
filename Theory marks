@@ -1,0 +1,7 @@
+theory_marks=int(input("enter the theory marks"))
+partical_marks=int(input("enter the partical marks"))
+total_marks=theory_marks+partical_marks
+if(total_marks>=50):
+  print("pass")
+else:
+  print("fail")
